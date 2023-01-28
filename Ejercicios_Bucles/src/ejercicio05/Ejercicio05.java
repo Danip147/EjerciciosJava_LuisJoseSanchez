@@ -7,17 +7,16 @@
 package ejercicio05;
 
 public class Ejercicio05 {
-	
+
 	public static void ejercicio05() {
 		int i = 320;
-		
-		while(i >= 160) {
+
+		while (i >= 160) {
 			System.out.println(i);
 			i -= 20;
 		}
 	}
-	
-	
+
 	public static void main(String[] args) {
 		ejercicio05();
 
