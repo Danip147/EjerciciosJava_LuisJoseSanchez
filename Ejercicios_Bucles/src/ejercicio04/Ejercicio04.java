@@ -7,9 +7,9 @@
 package ejercicio04;
 
 public class Ejercicio04 {
-	
+
 	public static void ejercicio04() {
-		for (int i = 320; i >= 160; i-=20) {
+		for (int i = 320; i >= 160; i -= 20) {
 			System.out.println(i);
 		}
 	}
