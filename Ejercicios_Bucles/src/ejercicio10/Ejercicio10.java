@@ -17,6 +17,7 @@ public class Ejercicio10 {
 	    double num, sum = 0, count = 0;
 	    
 	    System.out.println("Introduce números positivos (introduce un número negativo para terminar):");
+	    
 	    while (true) {
 	      num = sc.nextDouble();
 	      if (num < 0) {
@@ -25,14 +26,14 @@ public class Ejercicio10 {
 	      sum += num;
 	      count++;
 	    }
-	    double average = sum / count;
-	    System.out.println("La media es: " + average);
+	    
+	    double media = sum / count;
+	    System.out.println("La media es: " + media);
 	    
 	    sc.close();
 	  }
 		
 	
-
 	public static void main(String[] args) {
 		ejercicio10();
 
@@ -41,6 +42,3 @@ public class Ejercicio10 {
 }
 
 
-// me creo un array vacio
-// hago un bucle para ir metiendo datos
-// meto datos hasta que meta numero negativo 
