@@ -16,7 +16,7 @@ public class Ejercicio03 {
 	public static void ejercicio03() {
 		Scanner sc = new Scanner(System.in);
 		
-		Integer[] numeros = new Integer[5];
+		Integer[] numeros = new Integer[10];
 		
 		for (int i = 0; i < numeros.length; i++) {
 			System.out.println("Introduce un número: ");
@@ -26,7 +26,7 @@ public class Ejercicio03 {
 		
 		Arrays.sort(numeros); // Los ordena
 		
-		Collections.reverse(Arrays.asList(numeros));
+		Collections.reverse(Arrays.asList(numeros)); 
 		
 		for(Integer numero : numeros) { // los muestra 
 			System.out.println(numero);
