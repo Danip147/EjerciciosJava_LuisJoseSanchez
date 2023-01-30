@@ -17,8 +17,12 @@ public class Ejercicio08 {
 		char caracter4 = 'e'; 
 		char caracter5 = 'l'; 
 		
+		// La siguiente línea da error porque el resultado de sumar variables
+		// de tipo carácter es un número entero.
+		
 		String cadena = "" + caracter1 + caracter2 + caracter3 + caracter4 + caracter5;
 		
+		// Se soluciona concatenando al principio la cadena vacía.
 		System.out.println(cadena);
 	}
 
