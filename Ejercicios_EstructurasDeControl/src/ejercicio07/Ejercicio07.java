@@ -26,8 +26,8 @@ public class Ejercicio07 {
 		int media = ((n1 + n2 + n3) / 3);
 		
 		System.out.println("La media de las tres notas es: " + media);
-	
 		
+	
 		sc.close();
 		
 	}
@@ -51,9 +51,7 @@ public class Ejercicio07 {
 		
 		System.out.println("La media de las 3 notas es: " + media);
 		
-		
-
-		
+	
 		sc.close();
 	}
 	
